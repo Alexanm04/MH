@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/aulas/Escritorio/MH/P1/template_mh/build",
+  "command": "/usr/bin/c++  -I/home/aulas/Escritorio/MH/P1/template_mh/common -I/home/aulas/Escritorio/MH/P1/template_mh/inc -g -std=gnu++17 -o CMakeFiles/main.dir/main.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/main.cpp",
+  "file": "/home/aulas/Escritorio/MH/P1/template_mh/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/aulas/Escritorio/MH/P1/template_mh/build",
+  "command": "/usr/bin/c++  -I/home/aulas/Escritorio/MH/P1/template_mh/common -I/home/aulas/Escritorio/MH/P1/template_mh/inc -g -std=gnu++17 -o CMakeFiles/main.dir/src/brutesearch.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/brutesearch.cpp",
+  "file": "/home/aulas/Escritorio/MH/P1/template_mh/src/brutesearch.cpp",
+  "output": "CMakeFiles/main.dir/src/brutesearch.cpp.o"
+},
+{
+  "directory": "/home/aulas/Escritorio/MH/P1/template_mh/build",
+  "command": "/usr/bin/c++  -I/home/aulas/Escritorio/MH/P1/template_mh/common -I/home/aulas/Escritorio/MH/P1/template_mh/inc -g -std=gnu++17 -o CMakeFiles/main.dir/src/greedy.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/greedy.cpp",
+  "file": "/home/aulas/Escritorio/MH/P1/template_mh/src/greedy.cpp",
+  "output": "CMakeFiles/main.dir/src/greedy.cpp.o"
+},
+{
+  "directory": "/home/aulas/Escritorio/MH/P1/template_mh/build",
+  "command": "/usr/bin/c++  -I/home/aulas/Escritorio/MH/P1/template_mh/common -I/home/aulas/Escritorio/MH/P1/template_mh/inc -g -std=gnu++17 -o CMakeFiles/main.dir/src/pincrem.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/pincrem.cpp",
+  "file": "/home/aulas/Escritorio/MH/P1/template_mh/src/pincrem.cpp",
+  "output": "CMakeFiles/main.dir/src/pincrem.cpp.o"
+},
+{
+  "directory": "/home/aulas/Escritorio/MH/P1/template_mh/build",
+  "command": "/usr/bin/c++  -I/home/aulas/Escritorio/MH/P1/template_mh/common -I/home/aulas/Escritorio/MH/P1/template_mh/inc -g -std=gnu++17 -o CMakeFiles/main.dir/src/randomsearch.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/randomsearch.cpp",
+  "file": "/home/aulas/Escritorio/MH/P1/template_mh/src/randomsearch.cpp",
+  "output": "CMakeFiles/main.dir/src/randomsearch.cpp.o"
+},
+{
+  "directory": "/home/aulas/Escritorio/MH/P1/template_mh/build",
+  "command": "/usr/bin/c++  -I/home/aulas/Escritorio/MH/P1/template_mh/common -I/home/aulas/Escritorio/MH/P1/template_mh/inc -g -std=gnu++17 -o CMakeFiles/main.dir/src/snimp.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/snimp.cpp",
+  "file": "/home/aulas/Escritorio/MH/P1/template_mh/src/snimp.cpp",
+  "output": "CMakeFiles/main.dir/src/snimp.cpp.o"
+}
+]

@@ -32,6 +32,7 @@ float GreedySearch::calcularHeuristica(int u, SNIMP* snimp){
  */
 ResultMH GreedySearch::optimize(Problem *problem, int maxevals) {
   assert(maxevals > 0);
+  maxevals=1;
   SNIMP* snimp=dynamic_cast<SNIMP*>(problem);
   tSolution sol (problem->getSolutionSize(),0);
   vector<int>CL;
@@ -64,5 +65,5 @@ ResultMH GreedySearch::optimize(Problem *problem, int maxevals) {
   }
   
   tFitness fitness = problem->fitness(sol);
-  return ResultMH(sol, fitness, 5);
+  return ResultMH(sol, fitness,maxevals );
 }

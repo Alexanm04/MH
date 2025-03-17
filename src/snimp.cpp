@@ -23,10 +23,10 @@ tFitness SNIMP::fitness(const tSolution &solution)
         while (!nodos_activos.empty()){
             set<int> nuevos_nodos_activos;
             for (int nodo:nodos_activos){ 
-                for(size_t vecino=0; vecino<g[nodo].size(); ++vecino/* int u:g[nodo]*/){
-                    if (/*g[nodo][vecino]==1 &&*/ Random::get(0.0,1.0)<= p && nodos_influidos.find(vecino/* u*/)==nodos_influidos.end()){
-                        nuevos_nodos_activos.insert(vecino/*u*/);
-                        nodos_influidos.insert(vecino/*u*/);
+                for(/*size_t vecino=0; vecino<g[nodo].size(); ++vecino*/ int u:g[nodo]){
+                    if (/*g[nodo][vecino]==1 &&*/ Random::get(0.0,1.0)<= p && nodos_influidos.find(/*vecino*/ u)==nodos_influidos.end()){
+                        nuevos_nodos_activos.insert(/*vecino*/u);
+                        nodos_influidos.insert(/*vecino*/u);
                     }
                 }
             }

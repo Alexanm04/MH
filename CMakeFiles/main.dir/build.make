@@ -114,10 +114,24 @@ CMakeFiles/main.dir/src/greedy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/greedy.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aulas/Escritorio/MH/P1/template_mh/src/greedy.cpp -o CMakeFiles/main.dir/src/greedy.cpp.s
 
+CMakeFiles/main.dir/src/localsearch.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/localsearch.cpp.o: src/localsearch.cpp
+CMakeFiles/main.dir/src/localsearch.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/localsearch.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/localsearch.cpp.o -MF CMakeFiles/main.dir/src/localsearch.cpp.o.d -o CMakeFiles/main.dir/src/localsearch.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/localsearch.cpp
+
+CMakeFiles/main.dir/src/localsearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/localsearch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aulas/Escritorio/MH/P1/template_mh/src/localsearch.cpp > CMakeFiles/main.dir/src/localsearch.cpp.i
+
+CMakeFiles/main.dir/src/localsearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/localsearch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aulas/Escritorio/MH/P1/template_mh/src/localsearch.cpp -o CMakeFiles/main.dir/src/localsearch.cpp.s
+
 CMakeFiles/main.dir/src/pincrem.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/pincrem.cpp.o: src/pincrem.cpp
 CMakeFiles/main.dir/src/pincrem.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/pincrem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/pincrem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/pincrem.cpp.o -MF CMakeFiles/main.dir/src/pincrem.cpp.o.d -o CMakeFiles/main.dir/src/pincrem.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/pincrem.cpp
 
 CMakeFiles/main.dir/src/pincrem.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/main.dir/src/pincrem.cpp.s: cmake_force
 CMakeFiles/main.dir/src/randomsearch.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/randomsearch.cpp.o: src/randomsearch.cpp
 CMakeFiles/main.dir/src/randomsearch.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/randomsearch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/randomsearch.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/randomsearch.cpp.o -MF CMakeFiles/main.dir/src/randomsearch.cpp.o.d -o CMakeFiles/main.dir/src/randomsearch.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/randomsearch.cpp
 
 CMakeFiles/main.dir/src/randomsearch.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/main.dir/src/randomsearch.cpp.s: cmake_force
 CMakeFiles/main.dir/src/snimp.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/snimp.cpp.o: src/snimp.cpp
 CMakeFiles/main.dir/src/snimp.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/snimp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/snimp.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/snimp.cpp.o -MF CMakeFiles/main.dir/src/snimp.cpp.o.d -o CMakeFiles/main.dir/src/snimp.cpp.o -c /home/aulas/Escritorio/MH/P1/template_mh/src/snimp.cpp
 
 CMakeFiles/main.dir/src/snimp.cpp.i: cmake_force
@@ -161,6 +175,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
 "CMakeFiles/main.dir/src/brutesearch.cpp.o" \
 "CMakeFiles/main.dir/src/greedy.cpp.o" \
+"CMakeFiles/main.dir/src/localsearch.cpp.o" \
 "CMakeFiles/main.dir/src/pincrem.cpp.o" \
 "CMakeFiles/main.dir/src/randomsearch.cpp.o" \
 "CMakeFiles/main.dir/src/snimp.cpp.o"
@@ -171,12 +186,13 @@ main_EXTERNAL_OBJECTS =
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/src/brutesearch.cpp.o
 main: CMakeFiles/main.dir/src/greedy.cpp.o
+main: CMakeFiles/main.dir/src/localsearch.cpp.o
 main: CMakeFiles/main.dir/src/pincrem.cpp.o
 main: CMakeFiles/main.dir/src/randomsearch.cpp.o
 main: CMakeFiles/main.dir/src/snimp.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aulas/Escritorio/MH/P1/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

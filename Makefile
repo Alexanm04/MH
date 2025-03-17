@@ -208,6 +208,30 @@ src/greedy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/greedy.cpp.s
 .PHONY : src/greedy.cpp.s
 
+src/localsearch.o: src/localsearch.cpp.o
+.PHONY : src/localsearch.o
+
+# target to build an object file
+src/localsearch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/localsearch.cpp.o
+.PHONY : src/localsearch.cpp.o
+
+src/localsearch.i: src/localsearch.cpp.i
+.PHONY : src/localsearch.i
+
+# target to preprocess a source file
+src/localsearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/localsearch.cpp.i
+.PHONY : src/localsearch.cpp.i
+
+src/localsearch.s: src/localsearch.cpp.s
+.PHONY : src/localsearch.s
+
+# target to generate assembly for a file
+src/localsearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/localsearch.cpp.s
+.PHONY : src/localsearch.cpp.s
+
 src/pincrem.o: src/pincrem.cpp.o
 .PHONY : src/pincrem.o
 
@@ -299,6 +323,9 @@ help:
 	@echo "... src/greedy.o"
 	@echo "... src/greedy.i"
 	@echo "... src/greedy.s"
+	@echo "... src/localsearch.o"
+	@echo "... src/localsearch.i"
+	@echo "... src/localsearch.s"
 	@echo "... src/pincrem.o"
 	@echo "... src/pincrem.i"
 	@echo "... src/pincrem.s"

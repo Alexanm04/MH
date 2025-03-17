@@ -1,5 +1,4 @@
 #include <iostream>
-#include <problem.h>
 #include <random.hpp>
 #include <string>
 #include<map>
@@ -11,6 +10,7 @@
 #include "brutesearch.h"
 #include "greedy.h"
 #include "randomsearch.h"
+#include "localsearch.h"
 #include "snimp.h"
 
 using namespace std;
@@ -49,17 +49,22 @@ int main(int argc, char *argv[]) {
   RandomSearch ralg;
   //BruteSearch rbrute = BruteSearch();
   GreedySearch rgreedy;
+  LocalSearch lsall(1000);
+  LocalSearch blsmall(20);
   //MH *mh = &rgreedy;
   // Create the specific problem
   //ProblemIncrem rproblem = ProblemIncrem(10);
   // Solve using evaluations
   vector<pair<string, MH *>> algoritmos = {
                                            make_pair("RandomSearch", &ralg),
-                                           make_pair("Greedy", &rgreedy)};
+                                           make_pair("Greedy", &rgreedy),
+                                           make_pair("LSall", &lsall),
+                                           make_pair("BLsmall", &blsmall)
+                                          };
   map<string, tuple<double,double,int>> resultados;
 
   for (string &archivo: archivos){
-    SNIMP problema=SNIMP(6);
+    SNIMP problema=SNIMP(10);
     problema.leerArchivos(archivo);
     cout<<"Leido el archivo: "<<archivo<<endl;
     Problem *problem = &problema;
@@ -73,13 +78,13 @@ int main(int argc, char *argv[]) {
         MH *mh = algoritmos[i].second;
         ResultMH result = mh->optimize(problem, 1000);
         auto final=chrono::high_resolution_clock::now();
-        chrono::duration<double> tiempo= final-comienzo;
+        auto tiempo=chrono::duration_cast<chrono::milliseconds>(final-comienzo);
 
         auto &[sumafitness,sumatiempo, ejecuciones]=resultados[algoritmos[i].first];
         sumafitness+=result.fitness;
         sumatiempo+=tiempo.count();
         ejecuciones++;
-        //cout << "Best solution: " << result.solution << endl;
+        cout << "Tiempo: " << tiempo.count() << endl;
         cout << "Best fitness: " << result.fitness << endl;
         cout << "Evaluations: " << result.evaluations << endl;
       }
@@ -90,7 +95,7 @@ int main(int argc, char *argv[]) {
     auto& [sumafitness, sumatiempo, evaluaciones]=datos;
     cout<<"\nAlgoritmo:"<<nombre<<endl;;
     cout<<"Fitness promedio: "<<(sumafitness/evaluaciones)<<endl;
-    cout<<"Tiempo promedio: "<<(sumatiempo/evaluaciones)<<"s"<<endl;
+    cout<<"Tiempo promedio: "<<(sumatiempo/evaluaciones)<<"ms"<<endl;
     cout<<"Total ejecuciones: "<<evaluaciones<<endl;
   }
   

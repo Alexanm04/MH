@@ -143,17 +143,12 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/aulas/Escritorio/MH/P1/template_mh/common/problem.h \
- /home/aulas/Escritorio/MH/P1/template_mh/common/solution.h \
- /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_construct.h \
- /usr/include/c++/9/bits/stl_uninitialized.h /usr/include/c++/9/utility \
- /usr/include/c++/9/bits/stl_relops.h \
- /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
  /home/aulas/Escritorio/MH/P1/template_mh/common/random.hpp \
- /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /usr/include/c++/9/algorithm /usr/include/c++/9/utility \
+ /usr/include/c++/9/bits/stl_relops.h /usr/include/c++/9/bits/stl_algo.h \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
+ /usr/include/c++/9/bits/stl_construct.h \
  /usr/include/c++/9/bits/uniform_int_dist.h \
  /usr/include/c++/9/pstl/glue_algorithm_defs.h \
  /usr/include/c++/9/functional /usr/include/c++/9/tuple \
@@ -166,7 +161,10 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
  /usr/include/c++/9/bits/enable_special_members.h \
  /usr/include/c++/9/bits/unordered_map.h \
- /usr/include/c++/9/bits/erase_if.h \
+ /usr/include/c++/9/bits/erase_if.h /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/stl_uninitialized.h \
+ /usr/include/c++/9/bits/stl_vector.h \
+ /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
  /usr/include/c++/9/pstl/execution_defs.h /usr/include/c++/9/cassert \
  /usr/include/assert.h /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
  /usr/include/c++/9/ctime /usr/include/c++/9/bits/parse_numbers.h \
@@ -204,6 +202,7 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/aulas/Escritorio/MH/P1/template_mh/inc/pincrem.h \
  /home/aulas/Escritorio/MH/P1/template_mh/common/heuristicproblem.h \
  /home/aulas/Escritorio/MH/P1/template_mh/common/problem.h \
+ /home/aulas/Escritorio/MH/P1/template_mh/common/solution.h \
  /usr/include/c++/9/filesystem /usr/include/c++/9/bits/fs_fwd.h \
  /usr/include/c++/9/bits/fs_path.h /usr/include/c++/9/locale \
  /usr/include/c++/9/bits/locale_facets_nonio.h \
@@ -222,9 +221,11 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/9/bits/fs_ops.h \
  /home/aulas/Escritorio/MH/P1/template_mh/inc/brutesearch.h \
  /home/aulas/Escritorio/MH/P1/template_mh/common/mh.h \
+ /home/aulas/Escritorio/MH/P1/template_mh/common/problem.h \
  /home/aulas/Escritorio/MH/P1/template_mh/inc/greedy.h \
  /home/aulas/Escritorio/MH/P1/template_mh/common/heuristicmh.h \
  /home/aulas/Escritorio/MH/P1/template_mh/inc/snimp.h \
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_set.h \
  /usr/include/c++/9/bits/stl_multiset.h \
- /home/aulas/Escritorio/MH/P1/template_mh/inc/randomsearch.h
+ /home/aulas/Escritorio/MH/P1/template_mh/inc/randomsearch.h \
+ /home/aulas/Escritorio/MH/P1/template_mh/inc/localsearch.h
